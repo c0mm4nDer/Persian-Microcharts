@@ -100,5 +100,9 @@
       <Name>Microcharts.Samples</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Picture\1.PNG" />
+    <Content Include="Picture\2.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
