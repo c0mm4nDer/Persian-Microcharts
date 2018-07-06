@@ -44,6 +44,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microcharts.Forms", "Microc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microcharts.Samples.Forms.macOS", "Microcharts.Samples.Forms.macOS\Microcharts.Samples.Forms.macOS.csproj", "{5765ED35-AD7E-49BB-8701-B45D3C949501}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Picture", "Picture", "{039AA266-B9F8-483B-88CD-15B05EE3B842}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\1.PNG = ..\..\1.PNG
+		..\..\2.PNG = ..\..\2.PNG
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Microcharts.Shared\Microcharts.Shared.projitems*{818a5879-1440-4b4e-b132-8df4cbbe0b7b}*SharedItemsImports = 13
