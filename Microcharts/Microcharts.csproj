@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DocumentationFile>bin\Debug\netstandard1.4\Microcharts.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp" Version="1.60.2" />
+    <PackageReference Include="SkiaSharp.HarfBuzz" Version="1.60.2" />
+    <PackageReference Include="StyleCop.MSBuild" Version="5.0.0" />
+    <PackageReference Include="System.ValueTuple" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="**\.DS_Store" CopyToPublishDirectory="Never" />
+  </ItemGroup>
+
+  <Import Project="..\Microcharts.Shared\Microcharts.Shared.projitems" Label="Shared" Condition="Exists('..\Microcharts.Shared\Microcharts.Shared.projitems')" />
+</Project>
