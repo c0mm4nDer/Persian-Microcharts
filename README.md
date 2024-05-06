@@ -1,3 +1,5 @@
+[DEPRECATED]
+
 # Persian-Microcharts
 Now Microcharts Can Showing Persian Or Arabic Label
 
