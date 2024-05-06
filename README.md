@@ -1,4 +1,5 @@
 # DEPRECATED
+This repository is now deprecated. This is no longer supported,
 
 # Persian-Microcharts
 Now Microcharts Can Showing Persian Or Arabic Label
