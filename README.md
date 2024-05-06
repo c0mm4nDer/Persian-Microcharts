@@ -1,4 +1,4 @@
-[DEPRECATED]
+<h1>DEPRECATED</h1>
 
 # Persian-Microcharts
 Now Microcharts Can Showing Persian Or Arabic Label
